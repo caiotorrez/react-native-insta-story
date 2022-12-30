@@ -281,7 +281,7 @@ export const StoryListItem = ({
           style={styles.swipeUpBtn}
         >
           {customSwipeUpComponent ? (
-            customSwipeUpComponent
+            customSwipeUpComponent(swipeText)
           ) : (
             <>
               <Text style={{ color: 'white', marginTop: 5 }}></Text>
